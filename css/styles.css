@@ -1,1 +1,50 @@
 /* Ini css */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav>a {
+    border: 1px solid;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.photo-banner {
+    border: 1px solid;
+    background-image: url(https://picsum.photos/200);
+    background-position: center;
+    background-size: cover;
+    height: 480px;
+}
+
+.profile-icon {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profile-icon-containner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-icon-containner {
+
+}
